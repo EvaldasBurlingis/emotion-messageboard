@@ -78,8 +78,10 @@ $password   = "";
 
 ```
 # clone directory
+git clone https://github.com/EvaldasBurlingis/emotion-messageboard.git
 
 # cd directory
+cd emotion-messageboard
 
 # start php server
 php -S localhost:8000
