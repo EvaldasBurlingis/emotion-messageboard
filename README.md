@@ -26,7 +26,7 @@ Message board web app built with plain PHP and javascript. Uses MYSQL DB to stor
 * [x] Year must be calculated from the current date and the date of birth entered.
 
 **Pagination**
-* All messages should be paginated. Number of posts per page should be defined in constants.
+* [x] All messages should be paginated. Number of posts per page should be defined in constants.
 
 **Validation** (Frontent & backend)
 * [x] All form fields must be validated, even if the field is optional, but contains some input from user.
