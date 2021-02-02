@@ -1,4 +1,4 @@
-# Emotion.lt Message board
+# PHP Message board
 
 Message board web app built with plain PHP and javascript. Uses MYSQL DB to store messages
 
@@ -14,7 +14,7 @@ Message board web app built with plain PHP and javascript. Uses MYSQL DB to stor
 
 **If JavaScript is enabled:**
 * [x] After pressing the submit button, all fields have become inactive (not editable), and instead loader diagram should appear.
-* In case of success, the most recent message should be placed on top using JavaScript The oldest message should be removed from the screen. All form fields should be activated again.
+* [x] In case of success, the most recent message should be placed on top using JavaScript The oldest message should be removed from the screen. All form fields should be activated again.
 * [x] In case any errors are detected, fields must be marked and fields should be activated so that user can edit their input.
 * [x] In both cases, the loader should disappear and the button should appiear instead.
 
