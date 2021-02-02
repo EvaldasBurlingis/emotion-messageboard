@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Žinutės</title>
+
+        <link rel="stylesheet" media="screen" type="text/css" href="assets/css/screen.css" />
+
+        <noscript>
+            <style>
+                #submitMessageFormBtn {display:none;}
+            </style>
+        </noscript>
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Jūsų žinutės</h1>
+            <form id="submitMessageForm">
+                <div class="p-5">
+                    <label for="fullname">Vardas, pavardė *</label><br/>
+                    <input id="fullname" type="text" name="fullname">
+                </div>
+                <div class="p-5">
+                    <label for="birthdate">Gimimo data *</label><br/>
+                    <input id="birthdate" type="date" name="birthdate" />
+                </div>
+                <div class="p-5">
+                    <label for="email">El.pašto adresas</label><br/>
+                    <input id="email" type="email" name="email" />
+                </div>
+                <div class="p-5">
+                    <label for="message">Jūsų žinutė *</label><br/>
+                    <textarea id="message"></textarea>
+                </div>
+                <div class="p-5">
+                    <ul id="errors"></ul>
+                </div>
+                <div class="p-5">
+                    <span>* - privalomi laukai</span>
+                    <button id="submitMessageFormBtn">Skelbti</button>
+                    <noscript>
+                        <button>
+                            <a href="/">Skelbti</a>
+                        </button>
+                    </noscript>
+                    <img src="assets/img/ajax-loader.gif" alt="" class="loader hidden"/>
+                </div>
+            </form>
+            <noscript>
+                <p>Įjunkite javascript norėdami naudotis šią svetaine.</p>
+            </noscript>
+            <ul id="messages">
+            </ul>
+            <p id="pages">
+                <a href="javascript:prevPage()" title="atgal" id="btn_prev">atgal</a>
+                <a href="javascript:nextPage()" title="toliau" id="btn_next">toliau</a>
+                Puslapis: <span id="page"></span>
+            </p>
+        </div>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
